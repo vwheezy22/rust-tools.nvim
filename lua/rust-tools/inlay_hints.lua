@@ -175,7 +175,8 @@ local function get_handler()
                         "right_align" or "eol",
                     virt_text = {
                         {virt_text, config.options.tools.inlay_hints.highlight}
-                    }
+                    },
+                    hl_group = config.options.tools.inlay_hints.highlight,
                 });
 
                 -- update state
